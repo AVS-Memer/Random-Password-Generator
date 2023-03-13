@@ -1,5 +1,5 @@
 let password_length = prompt("What should the length of the password be?");
-if password_length == ("p") {password_length = Math.floor(Math.random()*25)+6;}
+if password_length == ("r") {password_length = Math.floor(Math.random()*25)+6;}
 for (let i = 0; i < password_length; i++) {
   let num = Math.floor(Math.random()*62);
   if (num >= 10) {
